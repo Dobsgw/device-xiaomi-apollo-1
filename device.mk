@@ -25,11 +25,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
-# Camera
-PRODUCT_PACKAGES += \
-    libMegviiFacepp-0.5.2 \
-    libmegface
-
 # Camera Cutout
 PRODUCT_PACKAGES += \
     CutoutRingServiceApollo
